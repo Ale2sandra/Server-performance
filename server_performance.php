@@ -8,15 +8,15 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Your session variables
-$userIdDb = isset($_SESSION['userid']) ? $_SESSION['userid'] : '';
-$fullname = isset($_SESSION['login_session']) ? $_SESSION['login_session'] : '';
-$username = isset($_SESSION['useremail']) ? $_SESSION['useremail'] : '';
+$userIdDb =  '';
+$fullname =  '';
+$username =  '';
 
 // Check if session variables are empty
-if (empty($userIdDb)) {
+if (empty($)) {
     echo "User ID is missing from the session.<br>";
 }
-if (empty($fullname)) {
+if (empty($)) {
     echo "Full Name is missing from the session.<br>";
 }
 // Initialize variables
