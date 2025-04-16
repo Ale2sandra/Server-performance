@@ -110,7 +110,7 @@ $data = [
 
 
 // Fetch details of Server 5
-$fileUrl = 'http://85.235.129.174/billing-system/server_script.php';
+$fileUrl = 'http://';
 $fileContents = file_get_contents($fileUrl); // Here we should get data from Server 5
 
 if ($fileContents === false) {
@@ -143,7 +143,7 @@ if ($fileContents === false) {
     }
 }
 // Fetch details of Server 16
-$fileUrl16 = 'https://135.181.5.174/billing-system/server_details16.php';
+$fileUrl16 = '';
 $fileContents16 = file_get_contents($fileUrl16); // Here we should get data from Server 16
 
 if ($fileContents16 === false) {
@@ -176,7 +176,7 @@ if ($fileContents16 === false) {
     }
 }
 // Fetch details of Server 15
-$fileUrl15 = 'https://195.201.171.92/billing-system/server15_details.php';
+$fileUrl15 = 'https://';
 $fileContents15 = file_get_contents($fileUrl15); // Here we should get data from Server 15
 
 if ($fileContents15 === false) {
